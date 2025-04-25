@@ -1,3 +1,4 @@
-require("islam.core.options")
-require("islam.core.keymaps")
-require("islam.lazy")
+require("vimrc.config.settings")
+require("vimrc.config.binds")
+require("vimrc.lazy")
+require("lazy").setup("vimrc.plugins")
